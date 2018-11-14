@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<servlet-class>test.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LoginServlet</servlet-name>
+	<url-pattern>/login</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>RegServlet</servlet-name>
+	<servlet-class>test.RegServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>RegServlet</servlet-name>
+	<url-pattern>/Register</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ViewServlet</servlet-name>
+	<servlet-class>test.ViewServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ViewServlet</servlet-name>
+	<url-pattern>/view</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>EditProfile</servlet-name>
+	<servlet-class>test.EditProfile</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>EditProfile</servlet-name>
+	<url-pattern>/edit</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateProfile</servlet-name>
+	<servlet-class>test.UpdateProfile</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>UpdateProfile</servlet-name>
+	<url-pattern>/update</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LogOutServlet</servlet-name>
+	<servlet-class>test.LogOutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LogOutServlet</servlet-name>
+	<url-pattern>/logout</url-pattern>	
+</servlet-mapping>
+
+<welcome-file-list>
+	<welcome-file>login.html</welcome-file>
+</welcome-file-list>
+</web-app>
